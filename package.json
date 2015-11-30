@@ -1,0 +1,26 @@
+{
+  "name": "deepclone",
+  "version": "1.0.0",
+  "description": "Deep clone utility , together with circular reference detection and proper inheritance chain reconstruction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbencic/deepclone.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "clone",
+    "deep",
+    "clone"
+  ],
+  "author": "dragan.bencic@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbencic/deepclone/issues"
+  },
+  "homepage": "https://github.com/dbencic/deepclone#readme"
+}
