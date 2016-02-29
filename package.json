@@ -1,6 +1,6 @@
 {
   "name": "deepclone",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Deep clone utility , together with circular reference detection and proper inheritance chain reconstruction",
   "main": "index.js",
   "scripts": {

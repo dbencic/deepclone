@@ -50,7 +50,9 @@ function cloneArray(arr) {
  * @param clones allready cloned source objects, for avoiding circular references
  */
 function cloneObject(obj, sources, clones) {
-  if(obj && obj instanceof Date) {
+  if (!obj) return obj;
+  if (obj.clone && isFunction(obj.clone)) return obj.clone();
+  if(obj instanceof Date) {
     //date is built in type and can be created only by invoking new Date()
     //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
     //there are more such objects as Error, but they are ignored here
